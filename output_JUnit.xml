@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="is-it-friday-yet?;today-is-or-is-not-friday" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features/it_is_friday_yet.feature">
+            </property>
+        </properties>
+        <testcase name="Given today is &quot;Friday&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday" time="0.001">
+        </testcase>
+        <testcase name="When I ask whether it&apos;s Friday yet" classname="is-it-friday-yet?;today-is-or-is-not-friday" time="0.001">
+        </testcase>
+        <testcase name="Then I should be told &quot;TGIF&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+    </testsuite>
+    <testsuite name="is-it-friday-yet?;today-is-or-is-not-friday" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features/it_is_friday_yet.feature">
+            </property>
+        </properties>
+        <testcase name="Given today is &quot;Sunday&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+        <testcase name="When I ask whether it&apos;s Friday yet" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+        <testcase name="Then I should be told &quot;Nope&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+    </testsuite>
+    <testsuite name="is-it-friday-yet?;today-is-or-is-not-friday" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features/it_is_friday_yet.feature">
+            </property>
+        </properties>
+        <testcase name="Given today is &quot;anything else!&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+        <testcase name="When I ask whether it&apos;s Friday yet" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+        <testcase name="Then I should be told &quot;Nope&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+    </testsuite>
+    <testsuite name="is-it-friday-yet?;today-is-or-is-not-friday" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features/it_is_friday_yet.feature">
+            </property>
+        </properties>
+        <testcase name="Given today is &quot;Monday&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+        <testcase name="When I ask whether it&apos;s Friday yet" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+        <testcase name="Then I should be told &quot;Nope&quot;" classname="is-it-friday-yet?;today-is-or-is-not-friday">
+        </testcase>
+    </testsuite>
+</testsuites>

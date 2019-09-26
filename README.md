@@ -1,2 +1,1 @@
-# BDD-example
-test for QTM
+./node_modules/cucumber/bin/cucumber-js --format=json | node_modules/.bin/cucumber-junit > output_JUnit.xml
