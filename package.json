@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --format json > report.json"
+    "test": "cucumber-js --format json > features/report.json"
   },
   "keywords": [],
   "author": "",
