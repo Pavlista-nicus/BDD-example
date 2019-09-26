@@ -1,7 +1,7 @@
 Feature: Is it Friday yet?
-    Everybody wants to know when it's Friday
+    Everybody wants to know when it's Friday1
 
-    Scenario Outline: Today is or is not Friday
+    Scenario Outline: Today is or is not Friday1
         Given today is "<day>"
         When I ask whether it's Friday yet
         Then I should be told "<answer>"
