@@ -4,4 +4,4 @@ COPY . .
 
 RUN ["npm", "install"]
 
-RUN ["npm", "test"]
+CMD ["npm", "test"]
