@@ -1,6 +1,6 @@
 @requirementKey=BDD-RQ-4
 
-Feature: Is it Friday yet?
+Feature: Is it Friday yet link?
     Everybody wants to know when it's Friday
 
     Scenario: Sunday isn't Friday
